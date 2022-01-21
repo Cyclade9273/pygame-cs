@@ -46,5 +46,9 @@ def main():
             red_rect.x += 2
 
         clock.tick(FPS)
+    
+    pygame.quit()
+    sys.exit()
 
-main()
+if __name__ == "__main__":
+    main()
